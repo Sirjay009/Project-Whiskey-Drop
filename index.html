@@ -89,7 +89,7 @@
                 ><span class="d-inline d-sm-none"><br /></span>
                 <strong><mark>First one is free!</mark></strong>
               </p>
-              <button class="btn btn-success btn-lg">Sign Up!</button>
+              <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
               <p class="text-muted">
                 <small
                   >You must be over 18 to sign up to our service. Please drink
@@ -218,8 +218,8 @@
         </div>
       </section>
     </article>
-    <div class="modal" tabindex="-1">
-      <div class="modal-dialog">
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Modal title</h5>
